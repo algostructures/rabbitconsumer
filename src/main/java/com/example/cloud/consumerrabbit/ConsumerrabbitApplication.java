@@ -9,7 +9,6 @@ import org.springframework.cloud.stream.messaging.Sink;
 @EnableBinding(Sink.class)
 @SpringBootApplication
 public class ConsumerrabbitApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ConsumerrabbitApplication.class, args);
     }
